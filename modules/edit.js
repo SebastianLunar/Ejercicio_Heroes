@@ -9,7 +9,8 @@ const edit = async (url) => {
         apellido: lastNameM,
         correo: emailM,
         id: idM
-    })
+    });
+    alert("Datos actualizados");
 }
 
 export default edit;

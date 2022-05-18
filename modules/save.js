@@ -6,7 +6,8 @@ const save = async (url) => {
         nombre: name,
         apellido: lastName,
         correo: email
-    })
+    });
+    alert("Usuario creado");   
 }
 
 export default save;
